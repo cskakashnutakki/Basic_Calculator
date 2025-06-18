@@ -1,0 +1,104 @@
+/* ------------------------------------------------calculator(project)-------------------------------------------------*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(135deg, #1e3c72, #2a5298);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.container{
+    width: 25%;
+    height: 80%;
+    background-color: rgba(102, 200, 230, 0.626);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px lime;
+}
+
+.calculator{
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.calculator form input{
+    border: none;
+    outline: 0px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.container form input.number {
+    background-color: rgba(255, 0, 162, 0.704);
+}
+
+.container form input.symbols {
+    background-color: rgba(0, 255,  128, 0.704);
+}
+
+.container form input.equal {
+    background-color: rgba(251, 255, 0, 0.704);
+}
+
+.container form input.ac,.del{
+    background-color: rgb(233, 66, 72);
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+
+form .display input{
+    display: flex;
+    flex:2;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+form input.equal{
+    width: 120px;
+}
+
+.container form input.ac:hover{
+    background-color: black;
+    color: lawngreen;
+    font-family:'Times New Roman', Times, serif;
+}
+
+form input.del:hover{
+    background-color: black;
+    color: lawngreen;
+    font-family:'Times New Roman', Times, serif;
+}
+
+form input.symbols:hover{
+    background-color: darkcyan;
+    color: lawngreen;
+    font-family:'Times New Roman', Times, serif;
+}
+
+form input.number:hover{
+    background-color: darkorange;
+    font-family:'Times New Roman', Times, serif;
+}
+
+form input.equal:hover{
+    background-color: black;
+    color: lawngreen;
+    font-family:'Times New Roman', Times, serif;
+}
